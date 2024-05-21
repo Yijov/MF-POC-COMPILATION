@@ -1,0 +1,95 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 2,
+    "total": 3
+  },
+  "1 debug pnpm:lifecycle": {
+    "depPath": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app1",
+    "optional": false,
+    "script": "rspack serve",
+    "stage": "start",
+    "wd": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app1"
+  },
+  "2 debug pnpm:lifecycle": {
+    "depPath": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2",
+    "optional": false,
+    "script": "rspack serve",
+    "stage": "start",
+    "wd": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2"
+  },
+  "3 debug pnpm:lifecycle": {
+    "depPath": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2",
+    "line": "\"rspack\" no se reconoce como un comando interno o externo,",
+    "stage": "start",
+    "stdio": "stderr",
+    "wd": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2"
+  },
+  "4 debug pnpm:lifecycle": {
+    "depPath": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2",
+    "line": "programa o archivo por lotes ejecutable.",
+    "stage": "start",
+    "stdio": "stderr",
+    "wd": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2"
+  },
+  "5 debug pnpm:lifecycle": {
+    "depPath": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app1",
+    "line": "\"rspack\" no se reconoce como un comando interno o externo,",
+    "stage": "start",
+    "stdio": "stderr",
+    "wd": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app1"
+  },
+  "6 debug pnpm:lifecycle": {
+    "depPath": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app1",
+    "line": "programa o archivo por lotes ejecutable.",
+    "stage": "start",
+    "stdio": "stderr",
+    "wd": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app1"
+  },
+  "7 debug pnpm:lifecycle": {
+    "depPath": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2",
+    "exitCode": 1,
+    "optional": false,
+    "stage": "start",
+    "wd": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2"
+  },
+  "8 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "different-react-versions-isolated_app2@0.0.0 start: `rspack serve`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "Error: different-react-versions-isolated_app2@0.0.0 start: `rspack serve`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\yirbe\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:108610:20)\n    at EventEmitter.emit (node:events:514:28)\n    at ChildProcess.<anonymous> (C:\\Users\\yirbe\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:95176:18)\n    at ChildProcess.emit (node:events:514:28)\n    at maybeClose (node:internal/child_process:1105:16)\n    at Socket.<anonymous> (node:internal/child_process:457:11)\n    at Socket.emit (node:events:514:28)\n    at Pipe.<anonymous> (node:net:337:12)"
+    }
+  },
+  "9 error pnpm": {
+    "errno": 1,
+    "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+    "pkgid": "different-react-versions-isolated_app2@0.0.0",
+    "stage": "start",
+    "script": "rspack serve",
+    "pkgname": "different-react-versions-isolated_app2",
+    "prefix": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app2",
+    "err": {
+      "name": "pnpm",
+      "message": "different-react-versions-isolated_app2@0.0.0 start: `rspack serve`\nExit status 1",
+      "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+      "stack": "Error: different-react-versions-isolated_app2@0.0.0 start: `rspack serve`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\yirbe\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:108610:20)\n    at EventEmitter.emit (node:events:514:28)\n    at ChildProcess.<anonymous> (C:\\Users\\yirbe\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:95176:18)\n    at ChildProcess.emit (node:events:514:28)\n    at maybeClose (node:internal/child_process:1105:16)\n    at Socket.<anonymous> (node:internal/child_process:457:11)\n    at Socket.emit (node:events:514:28)\n    at Pipe.<anonymous> (node:net:337:12)"
+    }
+  },
+  "10 debug pnpm:lifecycle": {
+    "depPath": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app1",
+    "exitCode": 1,
+    "optional": false,
+    "stage": "start",
+    "wd": "C:\\Users\\yirbe\\Desktop\\MF-POC-APPS\\different-react-versions-isolated\\app1"
+  },
+  "11 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "different-react-versions-isolated_app1@0.0.0 start: `rspack serve`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "Error: different-react-versions-isolated_app1@0.0.0 start: `rspack serve`\nExit status 1\n    at EventEmitter.<anonymous> (C:\\Users\\yirbe\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:108610:20)\n    at EventEmitter.emit (node:events:514:28)\n    at ChildProcess.<anonymous> (C:\\Users\\yirbe\\.node\\corepack\\pnpm\\7.5.0\\dist\\pnpm.cjs:95176:18)\n    at ChildProcess.emit (node:events:514:28)\n    at maybeClose (node:internal/child_process:1105:16)\n    at ChildProcess._handle.onexit (node:internal/child_process:305:5)"
+    }
+  },
+  "12 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?",
+  "13 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
